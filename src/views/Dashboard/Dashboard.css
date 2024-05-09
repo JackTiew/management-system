@@ -1,0 +1,11 @@
+/* .chart-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+@media (max-width: 767px) {
+    .chart-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+} */

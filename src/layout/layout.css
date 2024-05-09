@@ -1,0 +1,83 @@
+/*SIDEBAR usage*/
+/****************************
+sidebar
+*****************************/
+.app-side-bar-drawer {
+    background-color: #3C3C3C;
+    width: 230px;
+    flex-shrink: 0;
+    top: 0;
+    white-space: nowrap;
+    position: fixed;
+    z-index: 5;
+}
+
+.app-side-bar-drawer-open {
+    transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.app-side-bar-drawer-close {
+    transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    width: 0px;
+    top: 88px;
+    overflow-x: auto;
+}
+
+.app-side-bar-item {
+    display: flex;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 8px;
+}
+
+.app-side-bar-item-last {
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+
+.app-side-bar-item-text {
+    flex: 1 1 auto;
+    white-space: normal;
+    padding-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    letter-spacing: 0.01071em;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.app-side-bar-item-icon {
+    color: #FFFFFF;
+    display: inline-flex;
+    min-width: 30px;
+    flex-shrink: 0;
+}
+
+.app-side-bar-drawer-button-div {
+    padding-left: 0px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.app-side-bar-drawer-button {
+    margin-right: 16px;
+}
+
+/****************************
+Thin scrollbar start
+*****************************/
+.app-scrollbar-thin {
+    min-height: 100dvh;
+}
+
+.app-scrollbar-thin::-webkit-scrollbar {
+    width: 5px;
+}
+
+.app-scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.1);
+}

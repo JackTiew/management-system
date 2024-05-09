@@ -1,0 +1,65 @@
+/*TABLE usage*/
+.table-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*FORM usage*/
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-row {
+    display: flex;
+    margin: 10px;
+}
+
+.form-header {
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 25%;
+    font-size: 20px;
+}
+
+.form-content {
+    width: 75%;
+    font-size: 20px;
+}
+
+/*PAGINATION usage*/
+.page-container {
+    margin-top: 30px;
+    align-self: self-end;
+}
+
+.page-number {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+/*LOADING usage*/
+.loading-wrapper {
+    position: absolute;
+    overflow: hidden;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: grey;
+    opacity: 75%;
+}
+
+.loading-container {
+    position: absolute;
+    top: calc(50dvh - 100px);
+    left: calc(50dvw - 100px);
+}
